@@ -1,7 +1,13 @@
 package utils
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func PrintTitle(value string) {
-	fmt.Printf("\n=== %v ===\n", value)
+	fmt.Printf("\n============ %v ============\n", value)
+}
+
+func PrintSubTitle(value string) {
+	fmt.Printf("\n--- %v ---\n", value)
 }
